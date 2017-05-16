@@ -1,0 +1,114 @@
+body {
+  background-image: url("media/pagebg.jpg");
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1,5;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.body {
+  margin: 0 auto;
+  width: 50%;
+  clear: both;
+}
+
+/* OLD VERSION NAVIGATION
+.topheader {
+  text-align: left;
+  background-color: #FFF;
+  height: 25px;
+  width: 50%;
+  position: fixed;
+  padding-bottom: 18px;
+  overflow: auto;
+  border-bottom: solid 1px;
+}
+
+.topheader ul li, a {
+  color: black;
+  display: inline;
+  width: 100%;
+  padding: 10px 5px;
+  list-style: none;
+}
+
+
+*/
+
+.topheader {
+ background-color: white;
+ position: fixed;
+ width: 50%;
+ border-bottom: solid 1px;
+
+}
+
+.topheader li, a{
+  text-align: left;
+  display: inline;
+  padding: 0 2%;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.GhostHeader {
+  height: 25px;
+  padding: 7px;
+}
+
+.welcome {
+  width: 100%;
+  padding: 32% 0 30% 0;
+  margin-bottom: 0;
+  background-image: url("media/starrynighttardis.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.welcome h1 {
+  font-size: 3em;
+  color: #FFF;
+
+}
+
+.articles {
+  background-color: #FFF;
+  margin-top: 0;
+  padding-bottom: 2%;
+}
+
+.articles h2 {
+  padding-top: 2%;
+  margin-top: 0;
+  text-align: left;
+  padding-left: 4%;
+}
+
+.articles p {
+	padding: 0 4%;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  width: 50%
+
+}
+
+.MainFooter {
+  border-top: solid 1px; 
+  background-color: #f2f2f2;
+}
