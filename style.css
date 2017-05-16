@@ -5,7 +5,6 @@ body {
   font-size: 1em;
   line-height: 1,5;
   text-align: center;
-
 }
 
 a {
@@ -79,7 +78,6 @@ a:hover {
 .welcome h1 {
   font-size: 3em;
   color: #FFF;
-
 }
 
 .articles {
@@ -105,10 +103,19 @@ p {
 
 img {
   width: 50%
-
 }
 
 .MainFooter {
   border-top: solid 1px; 
   background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: "500") {
+  body {
+    width: 100%;
+  }
+
+  .topheader {
+    width: 100;
+  }
 }
