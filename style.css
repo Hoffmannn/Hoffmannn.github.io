@@ -111,7 +111,7 @@ img {
 }
 
 @media only screen and (max-width: "500") {
-  body {
+  .body {
     width: 100%;
   }
 
