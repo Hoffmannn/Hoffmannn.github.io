@@ -18,29 +18,6 @@ a {
   clear: both;
 }
 
-/* OLD VERSION NAVIGATION
-.topheader {
-  text-align: left;
-  background-color: #FFF;
-  height: 25px;
-  width: 50%;
-  position: fixed;
-  padding-bottom: 18px;
-  overflow: auto;
-  border-bottom: solid 1px;
-}
-
-.topheader ul li, a {
-  color: black;
-  display: inline;
-  width: 100%;
-  padding: 10px 5px;
-  list-style: none;
-}
-
-
-*/
-
 .topheader {
  background-color: white;
  position: fixed;
@@ -105,24 +82,59 @@ img {
   width: 50%
 }
 
+
+#img2 {
+  display: none;
+}
+
 .MainFooter {
   border-top: solid 1px; 
   background-color: #f2f2f2;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 600px) {
+
+@media only screen and (max-width: 500px) {
   .body {
     width: 100%;
+    background-image: none;
   }
 
   .topheader {
     width: 100%;
   }
+
+  .topheader ul {
+    margin-left: 0;
+    padding-left: 0;
+    align-items: left;
+  }
+
+  .welcome {
+    background-image: url("media/vvg.jpg");
+  }
+  
+  .welcome h1 {
+    text-shadow: -2px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+  }
+
+  .articles #img1 {
+    display: none;
+ }
+
+  .articles #img2 {
+    display: inline;
+    width: 90%;
+ }
+
+  .articles h2 {
+    margin-top: 3%;
+ }
 }
 
-@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
   .body {
     width: 100%;
+    background-image: none;
   }
 
   .topheader {
@@ -130,32 +142,6 @@ img {
   }
 } 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .body {
-    width: 100%;
-  }
 
-  .topheader {
-    width: 100%;
-  }
-}
 
-@media only screen and (min-resolution: 150dpi) {
-  .body {
-    width: 100%;
-  }
 
-  .topheader {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .body {
-    width: 100%;
-  }
-
-  .topheader {
-    width: 100%;
-  }
-} 
