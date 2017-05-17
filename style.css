@@ -1,29 +1,29 @@
 body {
-	background-color: #9999ff;
-	text-align: center;
-	font-family: Arial, sans-serif;
-	overflow-x: hidden;
+  background-color: #9999ff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .body {
-	margin: 0 auto;
-	clear: both;
-	width: 80%;
+  margin: 0 auto;
+  clear: both;
+  width: 80%;
 }
 
 .headerContent {
-	width: 100%;
-	border: groove; 1px;
-	margin-top: 1%;
+  width: 100%;
+  border: groove; 1px;
+  margin-top: 1%;
 }
 
 .headerContent img {
-	display: inline-block;
-	width: 30%;
+  display: inline-block;
+  width: 30%;
 }
 
 #portalname {
-	margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .mainContent {
@@ -35,23 +35,12 @@ body {
     border-radius: 1%;
 }
 
-<<<<<<< HEAD
 a {
-	text-decoration: none;
-=======
-.welcome {
-  width: 100%;
-  padding: 32% 0 30% 0;
-  margin-bottom: 0;
-  background-image: url("media/starrynighttardis.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  text-shadow: -2px 0 black, 0 0px black, 0px 0 black, 0 0px black;
->>>>>>> origin/master
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 
@@ -63,100 +52,65 @@ table {
 }
 
 table th {
-	text-align: left;
-	background-color: #9999ff;
-	padding: 8px 30px 8px 4px;
+  text-align: left;
+  background-color: #9999ff;
+  padding: 8px 30px 8px 4px;
 }
 
 table td {
-	border: 1px solid #b3b3b3;
-	padding: 4px 8px;
+  border: 1px solid #b3b3b3;
+  padding: 4px 8px;
 }
 
 table tr:nth-child(odd) td {
-	background-color: #e7edf0;
+  background-color: #e7edf0;
 }
 
 
 #mobileFooter {
-	display: none;
+  display: none;
 }
 
 
 @media only screen and (max-width: 500px) {
-<<<<<<< HEAD
     #duduLeft, #duduRight {
-    	display: none;
+      display: none;
     }
-=======
-  .body {
-    width: 100%;
-    background-image: none;
-  }
-
-  .topheader {
-    width: 100%;
-  }
-
-  .topheader ul {
-    margin-left: 0;
-    padding-left: 0;
-    align-items: left;
-  }
-
-  .welcome {
-    background-image: url("media/vvg.jpg");
-  }
-  
-  .articles #img1 {
-    display: none;
- }
-
-  .articles #img2 {
-    display: inline;
-    width: 90%;
- }
-
-  .articles h2 {
-    margin-top: 3%;
- }
-}
->>>>>>> origin/master
 
     #portalname {
-    	margin: 0;
-    	width: 80%;
+      margin: 0;
+      width: 80%;
     }
 
     .body {
-    	width: 98%;
+      width: 98%;
     }
 
     .mainContent {
-    	width: 100%;
-    	margin-left: 0;
-    	margin-right: 0;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     #normalFooter {
-    	display: none;
+      display: none;
     }
 
     #mobileFooter {
-    	display: inline;
+      display: inline;
     }
 
 }
 
 @media only screen and (max-width: 1024px) {
-	.body {
-		width: 98%;
+  .body {
+    width: 98%;
 
-	}
+  }
 
-	.mainContent {
-		width: 100%;
-    	margin-left: 0;
-    	margin-right: 0;
-	}
+  .mainContent {
+    width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+  }
 }
