@@ -35,8 +35,19 @@ body {
     border-radius: 1%;
 }
 
+<<<<<<< HEAD
 a {
 	text-decoration: none;
+=======
+.welcome {
+  width: 100%;
+  padding: 32% 0 30% 0;
+  margin-bottom: 0;
+  background-image: url("media/starrynighttardis.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-shadow: -2px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+>>>>>>> origin/master
 }
 
 a:hover {
@@ -73,9 +84,44 @@ table tr:nth-child(odd) td {
 
 
 @media only screen and (max-width: 500px) {
+<<<<<<< HEAD
     #duduLeft, #duduRight {
     	display: none;
     }
+=======
+  .body {
+    width: 100%;
+    background-image: none;
+  }
+
+  .topheader {
+    width: 100%;
+  }
+
+  .topheader ul {
+    margin-left: 0;
+    padding-left: 0;
+    align-items: left;
+  }
+
+  .welcome {
+    background-image: url("media/vvg.jpg");
+  }
+  
+  .articles #img1 {
+    display: none;
+ }
+
+  .articles #img2 {
+    display: inline;
+    width: 90%;
+ }
+
+  .articles h2 {
+    margin-top: 3%;
+ }
+}
+>>>>>>> origin/master
 
     #portalname {
     	margin: 0;
