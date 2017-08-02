@@ -1,0 +1,32 @@
+.header {
+	background-color: #efefef;
+	height: 120px;
+}
+
+.header img {
+	padding: 30px 0 0 0;
+	margin: 0 auto;
+	float: left;
+}
+
+.header li {
+	display: inline;
+	float: right;
+	padding-top: 35px;
+	padding-left: 60px;
+	font-family: serif;
+	font-size: 25px;
+	text-transform: uppercase;	
+}
+
+.header a {
+	color: #7a6666;
+}
+
+.header a:hover, a:active{ 
+	color: #cb3362;
+}
+
+a.selected {
+	color: #cb3362;
+}
