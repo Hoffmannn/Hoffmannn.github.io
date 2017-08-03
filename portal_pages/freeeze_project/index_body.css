@@ -1,5 +1,16 @@
 .home {
 	background-color: #f8f8f8;
+	height: 660px;
+}
+
+.home  {
+	position: center;
+}
+
+.home .container {
+	background-image: url("media/bg-home.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .container {
@@ -124,3 +135,14 @@
 	filter: sepia(1 100%);
 }
 
+
+@media only screen and (max-width: 985px) {
+	.home {
+		height: 400px;
+	}	
+}
+
+@media only screen and (max-width: 690px) {
+	.home .container {
+		background-size: cover;
+	}
