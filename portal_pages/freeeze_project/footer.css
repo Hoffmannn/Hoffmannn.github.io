@@ -23,3 +23,12 @@
 	font-weight: bold;
 	font-size: 20px;
 }
+
+.footer a {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.footer a:hover {
+	color: lightgray;
+}

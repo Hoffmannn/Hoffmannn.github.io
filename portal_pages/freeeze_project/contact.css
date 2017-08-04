@@ -63,3 +63,123 @@
 	color: #cb3362;
 }
 
+form {
+	padding: 30px 0;
+	margin-bottom: 20px;
+}
+
+.formBox {
+	float: left;
+}
+
+.formBox h2 {
+	padding-bottom: 35px;
+}
+
+.form {
+	padding-bottom: 200px;
+}
+
+input {
+	width: 700px;
+	height: 2.5em;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	float: left;
+	clear: left;
+}
+
+.form h2 {
+	color: #cb3362;
+	font-family: serif;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+input[type=text] {
+	color: #575757;
+	margin-bottom: 10px;
+	padding-top: 0;
+	vertical-align: top;
+}
+
+::placeholder {
+	font-family: serif;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+   font-family: serif;
+   margin: 0 10px;
+   padding: 0 20px;
+   color: #575757;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    font-family: serif;
+    margin: 0 10px;
+    padding: 0 20px;
+    color: #575757;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+  font-family: serif;
+  margin: 0 10px;
+  padding: 0 20px;
+  color: #575757;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+   font-family: serif;
+   margin: 0 10px;
+   padding: 0 20px;
+   color: #575757;
+}
+
+
+textarea {
+	float: left;
+	clear: left;
+	resize: none;
+	width: 700px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+input[type=button] {
+	border: 1px solid #CB3362;
+	width: 120px;
+	font-family: serif;
+	color: #CB3362;
+	background-color: white;
+	float: left;
+	clear: left;
+	margin: 10px 0;
+}
+
+.loveBox {
+	margin-top: 80px; 
+	background-color: #efefef;
+	text-align: center;
+	padding: 15px 30px 20px 30px;
+}
+
+.loveBox h2 {
+	margin: 15px 40px;
+
+}
+
+.loveBox p {
+	font-size: 18px;
+	margin: 15px 40px;
+	color: #7a6672;
+}
+
+.loveBox a {
+	text-decoration: underline;
+	color: #7a6672;
+}
+
+.loveBox a:hover {
+	color: #cb3362;
