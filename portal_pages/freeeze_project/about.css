@@ -1,0 +1,87 @@
+.about {
+	background-color: #c8c10d;
+	height: 80px;
+	margin-top: -20px;
+}
+
+.about h3 {
+	text-align: center;
+	font-family: serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 28px;
+
+}
+
+.fruitsBackground {
+	background-color: #EBEBED;
+}
+
+.fruitsBackground img{
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+.loveBox {
+	float: left;
+	margin-top: 40px; 
+	margin-bottom: 40px;
+	background-color: #efefef;
+	text-align: center;
+	padding: 15px 30px 20px 30px;
+}
+
+.loveBox p {
+	font-family: serif;
+	font-size: 18px;
+	margin: 0 40px;
+	color: #7a6672;
+	line-height: 70px;
+	margin-bottom: 50px;
+}
+
+.body {
+	margin-bottom: 100px;
+}
+
+.body h2 {
+	color: #cb3362;
+	font-family: serif;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	margin: 50px 0px;
+	line-height: 50px;
+	text-align: left
+}
+
+.loveBox h2 {
+	text-align: center;
+	margin: 60px 40px;
+}
+
+.weHave {
+	margin-left: 50px;
+}
+
+.weHave h2 {
+	margin-bottom: 30px;
+}
+
+.weHave p{
+	font-family: serif;
+	font-size: 18px;
+	color: #7a6672;
+
+}
+
+.body a {
+	text-decoration: underline;
+	color: #7a6672;
+}
+
+.body a:hover {
+	color: #cb3362;	
+}

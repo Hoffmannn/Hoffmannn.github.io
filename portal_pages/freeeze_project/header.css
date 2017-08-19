@@ -1,6 +1,7 @@
 .header {
 	background-color: #efefef;
-	height: 120px;
+/*	height: 120px;*/
+	padding-bottom: 50px;
 }
 
 .header img {
@@ -12,10 +13,10 @@
 .header li {
 	display: inline;
 	float: right;
-	padding-top: 35px;
-	padding-left: 60px;
+	margin-top: 35px;
+	margin-left: 60px;
 	font-family: serif;
-	font-size: 25px;
+	font-size: 20px;
 	text-transform: uppercase;	
 }
 
@@ -30,3 +31,29 @@
 a.selected {
 	color: #cb3362;
 }
+
+
+ul li {
+	position: relative;
+}
+
+.dropdownMenu ul li {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	margin-top: 5px;
+}
+
+ul li ul {
+	display: none;
+}
+
+/*ul li ul li {	
+	position: absolute;
+	right: 0;
+}*/
+
+ul li:hover ul {
+	display: block;
+}
+

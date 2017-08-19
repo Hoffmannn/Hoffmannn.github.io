@@ -1,0 +1,57 @@
+.products {
+	background-color: #c8c10d;
+	height: 80px;
+	margin-top: -20px;
+}
+
+.products h3 {
+	text-align: center;
+	font-family: serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 28px;
+
+}
+
+.col-md-12 {
+	margin-top: 30px;
+}
+
+.container h2 {
+	color: #cb3362;
+	text-align: left;
+	font-family: serif;
+}
+
+
+h2.productName {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+
+p {
+	font-family: serif;
+	font-size: 16px;
+	color: #7a6672;
+	padding-top: 20px;
+}
+
+.productShow {
+	margin-top: -30px
+}
+
+.productShow img {
+	margin-left: 20px;
+
+}
+
+.textBox {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.body {
+	padding-bottom: 80px;
+}
