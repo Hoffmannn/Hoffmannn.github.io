@@ -96,6 +96,14 @@ input {
 	margin-bottom: 15px;
 }
 
+.formBox p {
+	font-family: serif;
+	font-size: 16px;
+	color: #7e6666;
+	clear: both;
+
+}
+
 input[type=text] {
 	color: #575757;
 	margin-bottom: 10px;
@@ -147,7 +155,7 @@ textarea {
 	padding-top: 10px;
 }
 
-input[type=button] {
+input[type=submit] {
 	border: 1px solid #CB3362;
 	width: 120px;
 	font-family: serif;

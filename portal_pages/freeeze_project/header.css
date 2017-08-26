@@ -1,7 +1,7 @@
 .header {
 	background-color: #efefef;
 /*	height: 120px;*/
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 }
 
 .header img {
@@ -9,6 +9,10 @@
 	margin: 0 auto;
 	float: left;
 }
+
+/*nav {
+	margin-top: 20px;
+}*/
 
 .header li {
 	display: inline;
@@ -37,23 +41,29 @@ ul li {
 	position: relative;
 }
 
-.dropdownMenu ul li {
+.dropdownMenu {
 	position: absolute;
 	right: 0px;
 	top: 20px;
-	margin-top: 5px;
+}
+
+.dropdownMenu ul li {
+	margin: 0;
+	padding: 0;
 }
 
 ul li ul {
 	display: none;
 }
 
-/*ul li ul li {	
-	position: absolute;
-	right: 0;
-}*/
 
 ul li:hover ul {
 	display: block;
+	margin-top: 5px;
 }
 
+ul li:hover ul li {
+	margin: 0 0 0 60px;
+/*	padding-bottom: 0;*/
+	line-height: 20px;
+}
