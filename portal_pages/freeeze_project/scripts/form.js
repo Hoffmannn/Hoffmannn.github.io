@@ -17,9 +17,6 @@ textArea.addEventListener("keyup",function(){
     counter.innerText = characters.length;
 });
 
-//FOR DEBUGGING 
-console.log("if number is < 5, form will fail to send. Number is: " + random);
-//FOR DEBUGGING
 
 
 
