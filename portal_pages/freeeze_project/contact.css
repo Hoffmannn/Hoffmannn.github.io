@@ -29,9 +29,9 @@
 }
 
 #addressIcon {
-	display: inline-block;	
+/*	display: inline-block;	*/
 	float: left;
-	max-height: 
+	
 }
 
 #addressText {
@@ -192,4 +192,33 @@ input[type=submit] {
 
 .loveBox a:hover {
 	color: #cb3362;	
+}
+
+form p.error {
+	color: rgb(220, 50, 50);
+}
+
+#nameError {
+	display: none;
+}
+
+#emailError {
+	display: none;
+}
+
+#emailValid {
+	display: none;
+}
+
+#thoughtsError {
+	display: none;
+}
+
+#success {
+	color: #28d328;
+	display: none;
+}
+
+#formError {
+	display: none;
 }

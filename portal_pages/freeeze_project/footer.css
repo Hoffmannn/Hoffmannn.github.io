@@ -29,6 +29,7 @@
 	color: #fff;
 }
 
-.footer a:hover {
+.footer a:hover img{
 	color: lightgray;
+	border: 1px solid #fff;
 }

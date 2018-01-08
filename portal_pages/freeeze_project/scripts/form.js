@@ -2,50 +2,88 @@ var random = Math.floor(Math.random(0,1)*20);
 var email = document.getElementById("email");
 var textArea = document.getElementById("textArea");
 var counter = document.getElementById("counter");
+var errorName = document.querySelector('#nameError');
+var errorEmail = document.querySelector('#emailError');
+var validEmail = document.querySelector('#emailValid');
+var errorThoughts = document.querySelector('#thoughtsError');
+var success = document.querySelector('#success');
+var formError = document.querySelector('#formError');
+var isValid = false;
 
+
+//TEXTAREA COUNTER
 textArea.addEventListener("keyup",function(){
 	var characters = textArea.value.split('');
-  counter.innerText = characters.length;
+    counter.innerText = characters.length;
 });
 
 //FOR DEBUGGING 
-console.log("if number is < 5, form will fail to send: " + random);
+console.log("if number is < 5, form will fail to send. Number is: " + random);
 //FOR DEBUGGING
 
-document.addEventListener('submit', function (e) {
-  e.preventDefault()
-})
+
 
 function validation() {
+
 	if(document.form.name.value=="") {
-		alert("The field Name is required");
-		return false;
+		errorName.style.display='block';
+		isValid = false;
+	} else {
+		errorName.style.display='none';
+		isValid = true;
 	}
 
-	if(document.form.email.value=="") {
-		alert("The field Email is required");
-		return false;
+	if(email.value=="") {
+		errorEmail.style.display='block';
+		isValid = false;
+	} else {
+		errorEmail.style.display='none';
+		isValid = true;
 	}
 
 	if(!(email.value.includes("@"))) {
-		alert("Please, enter a valid Email.")
-		return false;
-	}
+		validEmail.style.display='block';
+		isValid = false;
+	} else {
+		validEmail.style.display="none";
+		isValid = true;
+	} 
 
 	if(textArea.value.length < 100) {
-		alert("Your message needs to have at least 100 chars. Please be more descriptive.");
-		return false;
+		errorThoughts.style.display='block';
+		isValid = false;
+	} else {
+		errorThoughts.style.display="none";
+		isValid = true;
+	}
+}
+
+
+function send() {
+
+	if (random < 5) {
+		formError.style.display='block';
+	} else if (random > 5) {
+		success.style.display='block';
+
 	}
 
-	else if (random < 5) {
-		alert("Sorry, something went wrong while validating your form. Refresh the page and try again, please.");
-
-	}
-
-	else {
-		alert("Your form was sent with success!");
-
-	}
 
 }
 
+
+//EXCECUTING VALIDATION
+document.addEventListener('submit', function (e) {
+	success.style.display='none';
+
+	validation();
+
+	if(isValid==true) {
+
+	send();
+
+	textArea.value = '';
+}	
+
+  e.preventDefault()
+})

@@ -61,19 +61,25 @@
 	<div class="form">
 		<div class="container">
 				<div class="formBox col-md-8">
-					<form name="form" action="#" onSubmit="return validation()" onSubmit="return email()">
+					<form name="form" action="#">
 					<h2>Inquiry Form</h2>
 						<input type="text" name="name" placeholder="Name">
+						<p class="error" id="nameError">The field Name is required.</p>
 						<input type="text" name="email" placeholder="Email" id="email">
+						<p class="error" id="emailError">The field Email is required.</p>
+						<p class="error" id="emailValid">Please, enter a valid Email.</p>
 						<input type="text" name="subject" placeholder="Subject">
 						<textarea id="textArea" name="thoughts" name="thoughts" cols="30" rows="10" placeholder="Share your thoughts"></textarea>
+						<p class="error" id="thoughtsError">Your message needs to have at least 100 chars. Please be more descriptive.</p>
 						<p><span id="counter">0</span> characters.</p>
+						<p id="success">Your form was sent with success!</p>
+						<p class="error" id="formError">Sorry, something went wrong while validating your form.<br> Refresh the page and try again, please.</p>
 						<input type="submit" value="SEND">
 					</form>			
 				</div>
 				<div class="loveBox col-md-4">
 					<h2>We'd love to hear from<br>you.</h2>
-					<p>If you're having problems editing this website template, then don't hesitate to ask for help on the<br> <a href="#">Forums</a></p>
+					<p>If you're having problems editing this website template, then don't hesitate to ask for help on the<br> <a href="#">Forums</a>.</p>
 				</div>
 		</div>
 	</div>
