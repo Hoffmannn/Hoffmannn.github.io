@@ -82,7 +82,9 @@ document.addEventListener('submit', function (e) {
 
 	send();
 
+	if(random > 5){
 	textArea.value = '';
+	}
 }	
 
   e.preventDefault()
