@@ -16,7 +16,7 @@ textArea.addEventListener("keyup",function(){
 	var characters = textArea.value.split('');
     counter.innerText = characters.length;
 });
-
+//
 
 
 
@@ -86,3 +86,5 @@ document.addEventListener('submit', function (e) {
 
   e.preventDefault()
 })
+
+
